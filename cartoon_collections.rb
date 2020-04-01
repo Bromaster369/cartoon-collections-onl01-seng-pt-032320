@@ -1,6 +1,5 @@
-def roll_call_dwarves(array) 
- array.collect do |arrat|
-    puts 
+def roll_call_dwarves(dwarves) 
+ dwarves.each_with_index {|dwarf, index| puts "#{index+1}. # dwarf"}
   end  
 end
 
