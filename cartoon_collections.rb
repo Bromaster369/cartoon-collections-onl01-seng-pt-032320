@@ -1,6 +1,6 @@
 def roll_call_dwarves(array) 
  array.collect do |arrat|
-    puts "I love #{topping} on my burgers!"
+    puts 
   end  
 end
 
