@@ -1,10 +1,7 @@
 def roll_call_dwarves(array) 
  array.collect do |arrat|
     puts "I love #{topping} on my burgers!"
-  end << yield(array[i])
-    i += 1
-  end
-  collection # Your code here
+  end  
 end
 
 def summon_captain_planet# code an argument here
