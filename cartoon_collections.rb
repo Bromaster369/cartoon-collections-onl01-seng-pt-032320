@@ -1,8 +1,7 @@
 def roll_call_dwarves(array) 
- i = 0
-  collection = []
-  while i < array.length
-    collection << yield(array[i])
+ array.collect do |arrat|
+    puts "I love #{topping} on my burgers!"
+  end << yield(array[i])
     i += 1
   end
   collection # Your code here
